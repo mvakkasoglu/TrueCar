@@ -1,0 +1,226 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3045897290,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on truecar home page",
+            "match": {
+              "location": "ShopNewCarBrand.user_is_on_truecar_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-03T16:07:53.680Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12910599968,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Shop for new car with BMW brand",
+        "description": "",
+        "id": "shop-new-car;shop-for-new-car-with-bmw-brand",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 357666354,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Shop New button",
+            "match": {
+              "location": "ShopNewCarBrand.user_clicks_on_Shop_New_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2845400199,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on brand \"BMW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BMW\"",
+                  "offset": 21
+                }
+              ],
+              "location": "ShopNewCarBrand.user_clicks_on_brand(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156953484,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects model \"m5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"m5\"",
+                  "offset": 19
+                }
+              ],
+              "location": "ShopNewCarBrand.user_selects_model(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172549914,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters sip code \"02180\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"02180\"",
+                  "offset": 21
+                }
+              ],
+              "location": "ShopNewCarBrand.user_enters_sip_code(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101158355,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks Next button",
+            "match": {
+              "location": "ShopNewCarBrand.user_clicks_Next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2279424253,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks Next button to continue",
+            "match": {
+              "location": "ShopNewCarBrand.user_clicks_Next_button_to_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1225061306,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Skip for Now",
+            "match": {
+              "location": "ShopNewCarBrand.user_clicks_on_Skip_for_Now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2050367010,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify header is \"Your 2021 BMW M5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your 2021 BMW M5\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ShopNewCarBrand.verify_header_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21013059,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify Style is \"Sedan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sedan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ShopNewCarBrand.verify_Style_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19294922,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify Standard Features \u0026 Specs contains \"Gas 4.4L V8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gas 4.4L V8\"",
+                  "offset": 42
+                }
+              ],
+              "location": "ShopNewCarBrand.verify_Standard_Features_Specs_contains(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@truecar"
+          }
+        ]
+      }
+    ],
+    "name": "Shop new car",
+    "description": "  This feature tests shopping for new car",
+    "id": "shop-new-car",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/shop_new_car.feature",
+    "tags": [
+      {
+        "name": "@truecar",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

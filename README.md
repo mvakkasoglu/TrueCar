@@ -5,8 +5,13 @@ to write tests in feature files using Gherkin language which makes it easy to re
  feature file.
 
 I used Page Object Model design structure in order to keep my code organized and clean. 
+
 Separate Java classes (pages package) are created for each page of the application where web elements of that page as well as related methods are stored.
+
 Implemented step definitions are kept in separate classes in stepDefs package.
+
 TestRunner class is in runner package.
+
 Utils package has classes for reusable codes, driver class and report class.
+
 Feature files are kept under resources.
